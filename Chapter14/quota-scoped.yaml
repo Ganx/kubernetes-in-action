@@ -1,7 +1,7 @@
 apiVersion: v1
 kind: ResourceQuota
 metadata:
-  name: besteffort-notterminating-pods
+  name: besteffort-notterminating-3-pods
 spec:
   scopes:
   - BestEffort

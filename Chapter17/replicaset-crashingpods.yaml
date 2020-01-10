@@ -1,13 +1,13 @@
 apiVersion: extensions/v1beta1
 kind: ReplicaSet
 metadata:
-  name: crashing-pods
+  name: crashing-3-pods
 spec:
   replicas: 3
   template:
     metadata:
       labels:
-        app: crashing-pods
+        app: crashing-3-pods
     spec:
       containers:
       - image: busybox
